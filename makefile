@@ -1,6 +1,7 @@
 #######################
 # Directory shortcut
 #######################
+STM32-SDK=$(SDK_PATH)/Drivers
 
 #######################
 # Output directories
@@ -12,6 +13,15 @@ ifeq (, $(wildcard .config))
 endif
 
 -include .config
+
+#######################
+# Binaries
+#######################
+PREFIX=arm-none-eabi-
+CC=$(GCC_PATH)/$(PREFIX)gcc
+AS=$(GCC_PATH)/$(PREFIX)gcc -x assembler-with-cpp
+CP=$(GCC_PATH)/$(PREFIX)objcopy
+SZ=$(GCC_PATH)/$(PREFIX)size
 
 #######################
 # CFLAGS
