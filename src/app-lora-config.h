@@ -1,6 +1,7 @@
 #ifndef APP_LORA_CONFIG
 #define APP_LORA_CONFIG
 
+#if 0
 #include <stdint.h>
 #include "radio.h"
 
@@ -41,5 +42,6 @@ typedef struct
 
 extern const AppLoRaTxConfig_t APP_LORA_TX_CONFIG;
 extern const AppLoRaRxConfig_t APP_LORA_RX_CONFIG;
+#endif
 
 #endif /* APP_LORA_CONFIG */

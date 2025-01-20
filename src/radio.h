@@ -1,6 +1,8 @@
 #ifndef RADIO_H
 #define RADIO_H
 
+
+#if 0
 #include "sx126x.h"
 
 /*!
@@ -400,5 +402,6 @@ typedef struct
  *         board implementation
  */
 extern const Radio_t Radio;
+#endif
 
 #endif

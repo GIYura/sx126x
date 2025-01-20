@@ -1,6 +1,7 @@
 #ifndef SX126X_H
 #define SX126X_H
 
+#if 0
 #include "board.h"
 #include "sx126x-definitions.h"
 
@@ -119,5 +120,6 @@ private:
         RadioOperatingModes_t m_operatingMode[SX1262_ID_NUMBER];
         RadioPacketTypes_t m_packetType[SX1262_ID_NUMBER];
 };
+#endif
 
 #endif /* SX126X_H */

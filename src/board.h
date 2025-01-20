@@ -1,6 +1,8 @@
 #ifndef BOARD_H
 #define BOARD_H
 
+#include <stdint.h>
+
 typedef enum
 {
     SX1261_CHIP = 0,
@@ -48,8 +50,8 @@ typedef struct
     uint8_t busy;
     uint8_t dio;
 } GpioConfig_t;
-
+#if 0
 void BoardDisableIrq(void);
 void BoardEnableIrq(void);
-
+#endif
 #endif /* BOARD_H */

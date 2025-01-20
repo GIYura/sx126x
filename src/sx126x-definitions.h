@@ -2,6 +2,7 @@
 #define SX126X_DEFINITIONS_H
 
 #include <stdint.h>
+#include <stdbool.h>
 
 /* SX126x supported IDs */
 typedef enum
