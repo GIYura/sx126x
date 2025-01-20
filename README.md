@@ -36,19 +36,11 @@ make clean
 
 ### Resourses
 
-1. GNU Arm toolchain
+1. GNU Arm toolchain: https://developer.arm.com/downloads/-/gnu-rm
 
-https://developer.arm.com/downloads/-/gnu-rm
+2. GCC command options: https://gcc.gnu.org/onlinedocs/gcc/index.html#SEC_Contents
 
-2. GCC command options
-
-https://gcc.gnu.org/onlinedocs/gcc/index.html#SEC_Contents
-
-
-3. STM32 SDK
-
-https://github.com/STMicroelectronics/STM32CubeF4
-
+3. STM32 SDK: https://github.com/STMicroelectronics/STM32CubeF4
 
 ### Reference
 
