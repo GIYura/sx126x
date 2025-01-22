@@ -45,7 +45,11 @@ CFLAGS = -mcpu=$(CPU) -mthumb -std=$(STANDARD) -g $(OPT) -MP -MMD -Wall
 #######################
 # List of directories
 #######################
-DIRS = $(SRCDIR) \
+DIRS = $(SRCDIR)/app \
+       $(SRCDIR)/board \
+       $(SRCDIR)/hal/stm32f4xx \
+       $(SRCDIR)/radio \
+       $(SRCDIR)/radio/sx126x \
        $(STM32_DRIVERS)/CMSIS/Device/ST/STM32F4xx/Include \
        $(STM32_DRIVERS)/CMSIS/Include
 
